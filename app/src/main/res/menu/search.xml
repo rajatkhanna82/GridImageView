@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.rajatkhanna.gridimageview.app.SearchActivity" >
     
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+    <item android:id="@+id/filter_settings"
+        android:icon="@drawable/ic_filter_setting"
+        android:title="@string/action_filter"
         android:orderInCategory="100"
-        app:showAsAction="never" />
+        app:showAsAction="ifRoom|withText" />
 </menu>
